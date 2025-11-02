@@ -17,6 +17,39 @@ String sql = "CREATE TABLE IF NOT EXISTS contacts ("
 + "nama TEXT NOT NULL,"
 + "nomor_telepon TEXT NOT NULL,"
 + "kategori TEXT"
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
 + ");";
 try (Connection conn = DatabaseConnection.getConnection();
 Statement stmt = conn.createStatement()) {
